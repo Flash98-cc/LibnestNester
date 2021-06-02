@@ -1,5 +1,6 @@
 # Libnest_Nester
 请仔细阅读README.md,并一步一步照此修改，不然程序运行不通
+
 Part1：项目配置
 在自己电脑上对Libnester项目配置：
 
@@ -25,7 +26,8 @@ Part1：项目配置
 
 E:\nlopt是安装的nlopt的安装位置，按照自己安装nlopt的目录修改。
 
-main.cpp:程序运行的启动函数；
+part2:整个项目文件函数描述
+main.cpp:程序运行的启动函数，不需要管；
 
 ![Image text](https://raw.githubusercontent.com/Flash98-cc/Libnest_Nester/main/%E4%B8%BB%E9%A1%B5.png)
 MainWindow.hpp和MainWindow.cpp：定义了GUI的主窗口，包括打开nest项目、导入dxf文件、将已有项目保存为nest后缀项目等操作,见上图；
