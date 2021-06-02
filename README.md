@@ -27,5 +27,7 @@ E:\nlopt是安装的nlopt的安装位置，按照自己安装nlopt的目录修�
 
 main.cpp:程序运行的启动函数；
 
-MainWindow.hpp和MainWindow.cpp：
+MainWindow.hpp和MainWindow.cpp：定义了GUI的主窗口，包括打开nest项目、导入dxf文件、将已有项目保存为nest后缀项目等操作；
+
+qimportdlg.hpp和qimportdlg.cpp：定义了导入dxf文件的窗口和一系列操作函数；
 
