@@ -26,7 +26,7 @@ Part1：项目配置
 E:\nlopt是安装的nlopt的安装位置，按照自己安装nlopt的目录修改。
 
 main.cpp:程序运行的启动函数；
-
+![image text]https://raw.githubusercontent.com/Flash98-cc/Libnest_Nester/main/%E4%B8%BB%E9%A1%B5.png
 MainWindow.hpp和MainWindow.cpp：定义了GUI的主窗口，包括打开nest项目、导入dxf文件、将已有项目保存为nest后缀项目等操作；
 
 qimportdlg.hpp和qimportdlg.cpp：定义了导入dxf文件的窗口和一系列操作函数；
