@@ -50,5 +50,5 @@ QPrjWidget::run()是进行排样的入口函数，在run函数里面主要的工
 之后调用createQSolution(uslt)函数将排样结果画在GUI上面，此处需要学习QT用Qpaint、Qpath、Qgraphicsview等组合绘图。
   
 part3：libnest2D文件说明
-  首先对libnest2D项目说明下，libnest2D是github上(https://github.com/tamasmeszaros/libnest2d)的开源项目，由于该项目是用cmake管理，但由于vs无法在github下载相关文件编译不通，最后选择新建解决方案，通过添加现有文件把libnest2D的文件添加进去。(只包含libnest2D无GUI的版本也会发给你)。
-  libnest2D_UML.vsdx文件是我用visio画的libnest2D的流程图
+  首先对libnest2D项目说明下，libnest2D是github上(https://github.com/tamasmeszaros/libnest2d) 的开源项目，由于该项目是用cmake管理，但由于vs无法在github下载相关文件编译不通，最后选择新建解决方案，通过添加现有文件把libnest2D的文件添加进去。(只包含libnest2D无GUI的版本也会发给你)。
+  libnest2D有三种选择策略（DJD、FIRSTFIT、FILLER）和两种放置策略（NFPPlacer和BottomLeft），Filler函数有问题未解决，将选择和放置策略进行组合共有四种可能，libnest2D_UML.vsdx文件是我用visio画的libnest2D的流程图，流程图只画了NFP+FirstFit组合的运行过程，其他组合一样，仅供参考。
